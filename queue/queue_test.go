@@ -113,7 +113,7 @@ func TestSendAndReceive(t *testing.T) {
 
 func TestOperationToString(t *testing.T) {
 	op := Operation{
-		Op:    Register,
+		Op:    Message,
 		Value: "QueueName",
 	}
 
@@ -125,7 +125,7 @@ func TestOperationToString(t *testing.T) {
 
 func TestOperationToBytes(t *testing.T) {
 	op := Operation{
-		Op:    Register,
+		Op:    Message,
 		Value: "QueueName",
 	}
 
