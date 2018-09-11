@@ -8,7 +8,7 @@ import (
 	"os"
 	"sync"
 
-	"github.com/Pungyeon/test-project/queue"
+	"github.com/Pungyeon/message-queue/queue"
 )
 
 func main() {
